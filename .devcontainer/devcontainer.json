@@ -7,8 +7,18 @@
         "ms-python.python",
         "GitHub.copilot",
         "GitHub.copilot-chat",
-        "ms-azuretools.vscode-containers"
-      ]
+        "ms-azuretools.vscode-containers",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "eslint.enable": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
+        "editor.formatOnSave": true
+      }
     }
-  }
+  },
+  "postCreateCommand": "npm install"
 }

@@ -1,0 +1,19 @@
+{
+    "name": "eslint-test",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "ESLint test project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js",
+        "lint": "eslint *.js",
+        "lint:fix": "eslint *.js --fix"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^9.30.1"
+    }
+}
